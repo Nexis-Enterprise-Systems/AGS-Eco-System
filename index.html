@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The favicon and <title> are overwritten at runtime from
+         system_settings once the client's branding loads (see
+         src/lib/theme.ts). These are just sane defaults. -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- Same font pairing as the sales/audit tool, for brand consistency
+         across the two products. Public Sans carries all body/UI text
+         here (this platform doesn't need the sales tool's uppercase
+         "boardroom" display treatment); Space Grotesk is reserved for
+         the company name on the login screen; IBM Plex Mono is
+         available for anywhere figures/data need to line up. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        var t = "light";
+        try { if (localStorage.getItem("ags-theme") === "dark") t = "dark"; } catch (e) {}
+        document.documentElement.setAttribute("data-theme", t);
+      })();
+    </script>
+    <title>AGS Eco System</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

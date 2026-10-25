@@ -1,0 +1,241 @@
+# SERVICE AGREEMENT
+
+**DRAFT. Not legal advice. Not to be signed until reviewed by a solicitor.**
+
+**Dated:** {{agreement_date}}
+
+**Between**
+
+(1) **{{company_name}}**, a company registered in England and Wales with company number {{company_number}}, whose registered office is at {{company_registered_office}} (the **Company**); and
+
+(2) **{{director_full_name}}** of {{director_address}} (the **Director**).
+
+## 1. Definitions and interpretation
+
+1.1 In this agreement:
+
+**Appointment**: the Director's employment under this agreement and appointment as a director of the Company.
+
+**Board**: the board of directors of the Company, or any committee of it, from time to time.
+
+**Business**: the business of the Company and any Group Company at the Termination Date in which the Director has been materially involved in the 12 months before that date, being decorating, refurbishment and related property services.
+
+**Confidential Information**: information of a confidential nature, in any form, relating to the Company, a Group Company or their clients, builders, suppliers, sub-contractors or employees, including pricing, tenders, margins, client lists and contact details, project information, supplier terms, business plans, financial information and the systems and data held in the Company's business-management systems.
+
+**Group Company**: the Company, its subsidiaries and holding companies and any subsidiary of a holding company, from time to time.
+
+**Start Date**: {{start_date}}.
+
+**Termination Date**: the date employment ends, however it ends.
+
+1.2 Headings do not affect interpretation. References to legislation include it as amended or re-enacted.
+
+## 2. Appointment
+
+2.1 The Company employs the Director, and the Director agrees to serve, as **{{job_title}}** on the terms of this agreement, from the Start Date. The Director's period of continuous employment with the Company began on {{continuous_service_date}}. No employment with a previous employer counts towards continuous employment.
+
+2.2 The Appointment continues until ended in accordance with clause 13.
+
+2.3 The Director confirms that the Director is not prevented by any contract, order or restriction from entering into or performing this agreement.
+
+2.4 The Director's appointment as a director is subject to the Company's articles of association and the Companies Act 2006. Nothing in this agreement is a guarantee of continued office as a director. Ceasing to be a director for any reason does not by itself end employment, but the Company may, if it ends the directorship, require the Director to carry out other duties of a similar status within clause 4.
+
+## 3. Duties as a director
+
+3.1 The Director shall comply with the duties of a director under the Companies Act 2006 and general law, including to act within powers, promote the success of the Company, exercise independent judgment, exercise reasonable care, skill and diligence, avoid conflicts of interest, not accept benefits from third parties, and declare any interest in a proposed or existing transaction with the Company.
+
+3.2 The Director shall comply with the Company's articles of association and with any lawful rules, policies and procedures of the Company in force from time to time. Policies do not form part of this agreement and the Company may change them.
+
+3.3 The Director shall keep the Board properly informed of the Company's business and affairs.
+
+## 4. Role and duties
+
+4.1 The Director shall perform the duties set out in Schedule 1 (Role and job description) and any other duties of a similar nature and status that the Board assigns from time to time.
+
+4.2 The Company may amend Schedule 1 by agreement with the Director, recorded in writing. A change to the job description that does not alter the Director's status, pay or terms is not a change to the terms of this agreement.
+
+4.3 The Director shall report to {{reports_to}}.
+
+4.4 The Director shall devote the whole of their working time, attention and skill to the Company's business during their working hours, and shall use best endeavours to promote its interests.
+
+## 5. Place of work
+
+5.1 The Director's normal place of work is {{place_of_work}}. The Director shall travel to client sites and to the offices of builders, suppliers and others in the UK as the role requires, without additional payment other than expenses under clause 8.
+
+## 6. Hours of work
+
+6.1 The Director's normal hours are {{normal_hours}}. The Director shall also work the further hours needed to perform their duties properly, without additional pay.
+
+6.2 The Director agrees that the 48-hour weekly limit in the Working Time Regulations 1998 does not apply to the Director's employment. The Director may end this agreement on three months' written notice to the Company. [Solicitor to confirm whether the Director's working time is unmeasured so that the Regulations do not apply.]
+
+## 7. Pay and pension
+
+7.1 The Company shall pay the Director a salary of **{{annual_salary}}** a year, paid {{pay_frequency}} in arrears by bank transfer, less deductions the Company is required by law to make. Salary accrues daily.
+
+7.2 The Board shall review the salary at least once a year. There is no obligation to increase it. Salary will not be reduced during the Appointment without the Director's agreement.
+
+7.3 The Company may deduct from salary or other sums due to the Director any sums the Director owes the Company, including overpayments and the value of untaken holiday taken in excess of entitlement, to the extent the law permits.
+
+7.4 Any bonus or other payment on top of salary is discretionary, does not form part of the Director's contractual pay, and does not become payable by reason of past payment. The Director has no right to a bonus for any period in which the Director is under notice or has left.
+
+7.5 The Company shall comply with its pension duties under the Pensions Act 2008. The Company will pay employer contributions of {{pension_employer_pct}} of qualifying earnings into a qualifying workplace pension scheme in which the Director is enrolled, on the terms of that scheme.
+
+7.6 The Director must not receive any payment for loss of office, or any payment on retirement, other than as permitted by the Companies Act 2006 and approved where that Act requires.
+
+## 8. Expenses
+
+8.1 The Company shall reimburse reasonable expenses properly incurred in the performance of the Director's duties, in accordance with the Company's expenses policy and on production of receipts or other evidence.
+
+## 9. Holiday
+
+9.1 The Director is entitled to {{holiday_entitlement_days}} days' paid holiday each holiday year, which include the usual public holidays in England and Wales. The holiday year runs from 1 January to 31 December. The entitlement is not less than the statutory minimum.
+
+9.2 Holiday must be taken at times agreed with the Board in advance. Carry-over is permitted only as the law requires or the Board agrees in writing. Holiday not taken is lost and no payment is made in lieu, except on termination, when pay for accrued untaken statutory holiday is made.
+
+9.3 If the Termination Date is part way through a holiday year, the Director's entitlement is the proportion of the year worked. On termination, the Company may require the Director to take any accrued untaken holiday during a period of notice.
+
+## 10. Sickness
+
+10.1 If the Director is unable to work because of sickness or injury, the Director shall tell the Board as soon as possible and no later than the start of the first working day of absence. The Director shall provide self-certification for absence of up to seven days and medical evidence from the eighth day.
+
+10.2 The Director is entitled to statutory sick pay, where qualifying conditions are met. Any company sick pay is discretionary.
+
+10.3 The Company's rights to end the Appointment under clause 13 are not affected by sickness absence.
+
+## 11. Confidentiality
+
+11.1 The Director shall not, during the Appointment or after it, use or disclose any Confidential Information, other than in the proper performance of their duties, as required by law, or where the information has become public other than by the Director's breach.
+
+11.2 The Director shall not make a copy of Confidential Information except for the proper performance of their duties. On request and at the Termination Date, the Director shall return all Company property, documents and data and permanently delete any held on personal devices or accounts, and confirm in writing that they have done so.
+
+11.3 Nothing in this agreement prevents the Director from making a protected disclosure under the Public Interest Disclosure Act 1998, from reporting a possible offence to a regulator or law enforcement body, or from doing anything the law does not allow to be restricted.
+
+## 12. Intellectual property
+
+12.1 Intellectual property rights in anything the Director creates in the course of the Appointment, including designs, specifications, documents, software, data and processes, belong to the Company. To the extent that they do not vest automatically, the Director assigns them to the Company with full title guarantee, and shall at the Company's cost do whatever is needed to confirm the Company's ownership.
+
+12.2 The Director waives all moral rights in such works to the extent the law permits.
+
+## 13. Ending the Appointment
+
+13.1 Either party may end the Appointment by giving the other not less than **{{notice_period_months}} months'** written notice. [Solicitor to confirm length is acceptable and does not bring section 188 Companies Act 2006 into play.]
+
+13.2 The Company may, instead of requiring the Director to work out notice, end the Appointment immediately and pay salary in lieu of the unexpired notice, less deductions. This does not affect the Company's right to end the Appointment without notice under clause 13.4.
+
+13.3 During any period of notice, or while the Company is investigating a complaint against the Director, the Company may, at its discretion, put the Director on garden leave. During garden leave the Director remains employed and is paid, shall not attend work or contact clients, suppliers or employees without the Board's permission, and shall remain available to work. Holiday continues to accrue.
+
+13.4 The Company may end the Appointment immediately and without notice or payment in lieu if the Director:
+(a) commits serious misconduct or a serious or repeated breach of this agreement;
+(b) is guilty of conduct that brings, or is likely to bring, the Director or the Company into serious disrepute;
+(c) is convicted of a criminal offence (other than a minor road traffic offence for which a non-custodial sentence is given);
+(d) is disqualified from being a director, or resigns office without the Board's agreement;
+(e) becomes bankrupt or makes an arrangement with creditors;
+(f) commits any act of dishonesty or fraud; or
+(g) is in persistent or serious neglect of their duties.
+
+13.5 On the Termination Date, or earlier if the Board asks, the Director shall resign as a director and from any office held in a Group Company, without claim for compensation. The Director hereby irrevocably appoints the Company as attorney to sign documents effecting resignation if the Director does not do so.
+
+## 14. Restrictions after employment
+
+14.1 In this clause **Restricted Period** means {{restricted_period_months}} months after the Termination Date, reduced by any period of garden leave served.
+
+14.2 The Director shall not, during the Restricted Period, in competition with the Company, solicit or deal with any person who was a client or prospective client of the Company in the 12 months before the Termination Date and with whom the Director had material dealings.
+
+14.3 The Director shall not, during the Restricted Period, solicit or entice away, or try to, any employee or sub-contractor of the Company with whom the Director worked in the 12 months before the Termination Date, in order to compete with the Business.
+
+14.4 The Director shall not, during the Restricted Period, be engaged or interested in any business that competes with the Business, within a radius of {{restricted_radius_miles}} miles of {{place_of_work}}.
+
+14.5 Each restriction in this clause is separate and, if any is found to be too wide, the Company and the Director intend that it shall apply with the smallest modification needed to make it enforceable. The Director acknowledges the restrictions are reasonable to protect the Company's legitimate business interests. The Director shall give a copy of this clause to any new employer or business partner before accepting any engagement during the Restricted Period.
+
+## 15. Other business interests
+
+15.1 The Director shall not, during the Appointment, be directly or indirectly engaged, concerned or interested in any other business that is, or is likely to be, in competition with the Company, other than holding up to 3% of a listed company's shares as a passive investor.
+
+15.2 The Director shall disclose to the Board in advance any other directorship, appointment or business interest that could affect the Company, and shall not take it up without the Board's consent, which shall not be unreasonably withheld.
+
+## 16. Data protection
+
+16.1 The Company processes personal data about the Director for employment, payroll, tax, pensions, legal and regulatory purposes, as set out in its privacy notice for staff, which the Director confirms they have been given. The Director shall comply with the Company's data protection policy when handling personal data of others and shall report any suspected data breach to the Board straight away.
+
+## 17. Insurance and indemnity
+
+17.1 The Company shall maintain directors' and officers' insurance in respect of the Director where it considers it appropriate, and any indemnity is only to the extent permitted by sections 232 to 238 of the Companies Act 2006. [Solicitor to confirm.]
+
+## 18. Company property and equipment
+
+18.1 Equipment, vehicles, mobile devices, keys, passes and accounts supplied remain Company property, must be used for Company business unless the Board agrees otherwise, and must be returned in good condition at the Termination Date.
+
+## 19. Grievance and disciplinary
+
+19.1 There is no contractual disciplinary or grievance procedure. The Director may raise a grievance with the Board in writing. The Company will have regard to the ACAS Code of Practice on disciplinary and grievance procedures where it applies.
+
+## 20. General
+
+20.1 **Entire agreement.** This agreement, with Schedule 1 and Schedule 2, is the whole agreement between the parties about its subject matter and replaces any earlier agreement, understanding or arrangement, written or oral.
+
+20.2 **Variation.** A variation is only valid if it is in writing and signed by or on behalf of both parties.
+
+20.3 **Notices.** A notice must be in writing and delivered by hand or sent by pre-paid first-class post to the registered office (for the Company) or the Director's last known address (for the Director). Delivered by hand it is received on delivery, and by post on the second working day after posting.
+
+20.4 **Severance.** If any provision is found invalid or unenforceable, the rest of the agreement continues in force.
+
+20.5 **Third parties.** No one who is not a party to this agreement has the right to enforce any of its terms under the Contracts (Rights of Third Parties) Act 1999.
+
+20.6 **Collective agreements.** No collective agreement affects the Director's employment.
+
+20.7 **Statement of particulars.** This agreement, with Schedules 1 and 2, is intended to serve as the written statement of employment particulars required by section 1 of the Employment Rights Act 1996. [Solicitor to check all mandatory particulars are included, including those taking effect from 2025 and 2026.]
+
+20.8 **Governing law.** This agreement and any dispute arising out of or in connection with it (including non-contractual disputes) are governed by the law of England and Wales. The courts of England and Wales have exclusive jurisdiction.
+
+## 21. Approval and execution
+
+21.1 This agreement was approved by the Board on {{board_approval_date}}, with the Director declaring their interest in it, in accordance with section 177 of the Companies Act 2006 and the articles of association. [Where the Director is the sole director, solicitor to advise on correct approval and the written record needed under section 231 of the Companies Act 2006.]
+
+21.2 The Company shall keep a copy of this agreement at its registered office, or another place notified to Companies House, and make it available for inspection by members without charge, as section 228 of the Companies Act 2006 requires.
+
+**Signed** for and on behalf of **{{company_name}}** by {{signing_director_name}}, a director (or by a person authorised by the Board).
+
+Signature: ______________________   Date: ______________
+
+**Signed** by **{{director_full_name}}**
+
+Signature: ______________________   Date: ______________
+
+---
+
+# SCHEDULE 1: ROLE AND JOB DESCRIPTION
+
+**Job title:** {{job_title}}
+
+**Reporting to:** {{reports_to}}
+
+**Place of work:** {{place_of_work}}
+
+**Role summary:**
+
+{{job_summary}}
+
+**Main duties and responsibilities:**
+
+{{job_duties}}
+
+*This schedule is produced from the Job Role held in Settings, People and HR. A later change to the job role does not alter a signed agreement. Changes are recorded as a variation under clause 4.2.*
+
+---
+
+# SCHEDULE 2: SUMMARY OF KEY TERMS
+
+| Term | Detail |
+| --- | --- |
+| Employer | {{company_name}} |
+| Employee | {{director_full_name}} |
+| Start date | {{start_date}} |
+| Continuous employment began | {{continuous_service_date}} |
+| Job title | {{job_title}} |
+| Salary | {{annual_salary}} a year, paid {{pay_frequency}} in arrears |
+| Normal hours | {{normal_hours}} |
+| Place of work | {{place_of_work}} |
+| Holiday | {{holiday_entitlement_days}} days a year, including public holidays |
+| Notice | {{notice_period_months}} months by either party |
+| Pension | Employer contribution of {{pension_employer_pct}} of qualifying earnings |
+| Restrictions after employment | {{restricted_period_months}} months |

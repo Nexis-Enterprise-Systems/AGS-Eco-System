@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+.env
+.env.local
+.env.*.local
+*.local
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+
+# Local-only notes (contain real contact details)
+DEMO_RESTORE.md

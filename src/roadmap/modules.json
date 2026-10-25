@@ -1,0 +1,362 @@
+{
+  "updated": "2026-10-25",
+  "groups": [
+    {
+      "id": "foundation",
+      "name": "Foundation",
+      "description": "The base every other module stands on. Inherited from the NEXIS client platform and re-themed for AGS.",
+      "modules": [
+        {
+          "id": "auth",
+          "name": "Sign-in and mandatory 2FA",
+          "status": "built",
+          "summary": "Email and password sign-in; every account must set up an authenticator app, enforced in the database as well as the app."
+        },
+        {
+          "id": "roles",
+          "name": "Roles and invites",
+          "status": "built",
+          "summary": "Admin, staff and sub-contractor roles; people sign up from an invite list."
+        },
+        {
+          "id": "business-units",
+          "name": "Business units",
+          "status": "built",
+          "summary": "Head Office plus optional separate units, each with its own details and branding."
+        },
+        {
+          "id": "branding",
+          "name": "AGS look and feel",
+          "status": "built",
+          "summary": "Cormorant Garamond and Jost, AGS colours, dark and light mode, logo from settings, shared page header."
+        },
+        {
+          "id": "dashboard-framework",
+          "name": "Interactive dashboard framework",
+          "status": "built",
+          "summary": "Choose, arrange and resize tiles per person. Tiles arrive with each module."
+        },
+        {
+          "id": "team-directory",
+          "name": "Team directory and profiles",
+          "status": "built",
+          "summary": "Who's who across the system, with contact details shown only where allowed."
+        },
+        {
+          "id": "roadmap",
+          "name": "Roadmap",
+          "status": "built",
+          "summary": "This page: what is built, in progress and planned."
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "name": "People",
+      "description": "Employees and sub-contractors in one area, with a strict split between HR and compliance.",
+      "modules": [
+        {
+          "id": "people-design",
+          "name": "People data design",
+          "status": "in_progress",
+          "summary": "Records, permissions and screens for employees, sub-contractors and suppliers. For review before any code.",
+          "dependsOn": []
+        },
+        {
+          "id": "people-hr-settings",
+          "name": "People & HR settings: templates and job roles",
+          "status": "in_progress",
+          "summary": "Versioned contract templates and a job roles library in Settings. MD service agreement drafted, awaiting solicitor review.",
+          "dependsOn": [
+            "roles"
+          ]
+        },
+        {
+          "id": "employee-onboarding",
+          "name": "People onboarding (employees and sub-contractors)",
+          "status": "in_progress",
+          "summary": "One process for both: add, invite link, six-step self-service form, typed-name signature, office Accept or Reject, then login via sign-up. Built, with a stored signed PDF, a Compliance tab, a dashboard expiry tile and renewal capture. Reminder emails and the employee contract wording still to come.",
+          "dependsOn": [
+            "people-hr-settings",
+            "people-design"
+          ]
+        },
+        {
+          "id": "suppliers",
+          "name": "Suppliers (including agencies)",
+          "status": "planned",
+          "summary": "Anyone AGS buys from: materials, services, agencies and sub-contractor businesses. One record per business.",
+          "dependsOn": [
+            "people-design"
+          ]
+        },
+        {
+          "id": "subcontractors",
+          "name": "Sub-contractors and compliance",
+          "status": "planned",
+          "summary": "Engagement type, CIS status, insurance, status checks (CEST), contract and workers with logins.",
+          "dependsOn": [
+            "suppliers"
+          ]
+        },
+        {
+          "id": "employees",
+          "name": "Employees (HR)",
+          "status": "planned",
+          "summary": "Staff records, time away, qualifications and training. Employees only; never applied to sub-contractors.",
+          "dependsOn": [
+            "people-design"
+          ]
+        },
+        {
+          "id": "compliance",
+          "name": "Compliance tracking and alerts",
+          "status": "planned",
+          "summary": "Site cards, insurance and certificates with expiry dates, and a dashboard tile for what is expiring.",
+          "dependsOn": [
+            "subcontractors",
+            "employees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clients-jobs",
+      "name": "Clients, sites and jobs",
+      "description": "The core of the work: who it is for, where it is and what stage it is at.",
+      "modules": [
+        {
+          "id": "clients",
+          "name": "Clients",
+          "status": "built",
+          "summary": "Client records with bulk import. Template version; to be reworked for AGS (private clients, builders, commercial)."
+        },
+        {
+          "id": "sites",
+          "name": "Sites and map positions",
+          "status": "planned",
+          "summary": "Addresses with postcode lookup and map positions.",
+          "dependsOn": [
+            "clients"
+          ]
+        },
+        {
+          "id": "jobs",
+          "name": "Jobs",
+          "status": "planned",
+          "summary": "Replaces the template's Projects: stages, dates, scope, value, documents. Includes allocations of people to jobs.",
+          "dependsOn": [
+            "clients",
+            "sites",
+            "people-design"
+          ]
+        },
+        {
+          "id": "enquiries",
+          "name": "Enquiries and quotes",
+          "status": "planned",
+          "summary": "Enquiry intake from the website, quoting, conversion to a job.",
+          "dependsOn": [
+            "clients",
+            "jobs"
+          ]
+        },
+        {
+          "id": "maps",
+          "name": "Job map",
+          "status": "planned",
+          "summary": "Map of jobs by status, sector and team, with a dashboard tile.",
+          "dependsOn": [
+            "sites",
+            "jobs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "name": "Operations",
+      "description": "Running the work day to day.",
+      "modules": [
+        {
+          "id": "allocations",
+          "name": "Resource allocations and schedule",
+          "status": "planned",
+          "summary": "Who is on which job and when, whether employee, sub-contractor or agency worker. Drives the schedule and labour cost.",
+          "dependsOn": [
+            "jobs",
+            "subcontractors",
+            "employees"
+          ]
+        },
+        {
+          "id": "job-cards",
+          "name": "Job cards and photos",
+          "status": "planned",
+          "summary": "Sub-contractors log in to see allocated works, with photos and sign-off.",
+          "dependsOn": [
+            "allocations"
+          ]
+        },
+        {
+          "id": "health-safety",
+          "name": "Health and safety",
+          "status": "planned",
+          "summary": "RAMS, inductions, incident log.",
+          "dependsOn": [
+            "jobs",
+            "compliance"
+          ]
+        },
+        {
+          "id": "wip-documents",
+          "name": "WIP documents",
+          "status": "planned",
+          "summary": "Work-in-progress documents built up as a job moves and sent to the client.",
+          "dependsOn": [
+            "jobs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "description": "Money in, money out and margin. Locked down by role at database level.",
+      "modules": [
+        {
+          "id": "invoices",
+          "name": "Invoices and payments",
+          "status": "planned",
+          "summary": "Invoices raised, due, paid, retentions and ageing.",
+          "dependsOn": [
+            "jobs"
+          ]
+        },
+        {
+          "id": "job-costs",
+          "name": "Job costing and margin",
+          "status": "planned",
+          "summary": "Labour from allocations plus materials, against quoted value.",
+          "dependsOn": [
+            "allocations",
+            "invoices"
+          ]
+        },
+        {
+          "id": "cis",
+          "name": "CIS records",
+          "status": "planned",
+          "summary": "Verification, deductions and payment statements for sub-contractors.",
+          "dependsOn": [
+            "subcontractors",
+            "job-costs"
+          ]
+        },
+        {
+          "id": "accounting-sync",
+          "name": "Accounting integration",
+          "status": "planned",
+          "summary": "Sync with the accounting software once chosen.",
+          "dependsOn": [
+            "invoices"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portals",
+      "name": "Portals and reporting",
+      "description": "What clients, builders and the director see.",
+      "modules": [
+        {
+          "id": "reporting",
+          "name": "Reporting",
+          "status": "planned",
+          "summary": "Standard reports and exports.",
+          "dependsOn": [
+            "job-costs"
+          ]
+        },
+        {
+          "id": "client-portal",
+          "name": "Client and builder portals",
+          "status": "planned",
+          "summary": "Controlled access for clients and builders to see their jobs and documents.",
+          "dependsOn": [
+            "jobs",
+            "wip-documents"
+          ]
+        },
+        {
+          "id": "website-link",
+          "name": "Website link",
+          "status": "planned",
+          "summary": "Shared project records with the AGS website and enquiries flowing in.",
+          "dependsOn": [
+            "enquiries",
+            "jobs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "name": "Hosting and platform",
+      "description": "Getting it live and keeping it safe.",
+      "modules": [
+        {
+          "id": "test-supabase",
+          "name": "AGS test database",
+          "status": "planned",
+          "summary": "Own Supabase test project. Waiting on the account invoice. Using the NEXIS demo project meanwhile."
+        },
+        {
+          "id": "live-supabase",
+          "name": "AGS live database",
+          "status": "planned",
+          "summary": "Separate live project on a paid plan with daily backups, before any real data.",
+          "dependsOn": [
+            "test-supabase"
+          ]
+        },
+        {
+          "id": "railway",
+          "name": "Railway deployment",
+          "status": "planned",
+          "summary": "Test and live environments from one repository.",
+          "dependsOn": [
+            "test-supabase"
+          ]
+        },
+        {
+          "id": "cloudflare",
+          "name": "Cloudflare and domain",
+          "status": "planned",
+          "summary": "DNS, SSL and protection on a subdomain of agsdecoratingservices.co.uk, once IT give DNS access.",
+          "dependsOn": [
+            "railway"
+          ]
+        },
+        {
+          "id": "recovery",
+          "name": "Account recovery and backups",
+          "status": "planned",
+          "summary": "A proper process for lost authenticators and restoring data.",
+          "dependsOn": [
+            "live-supabase"
+          ]
+        },
+        {
+          "id": "migration",
+          "name": "Data migration from the current system",
+          "status": "planned",
+          "summary": "Needs the handover document from the current system first.",
+          "dependsOn": [
+            "live-supabase"
+          ]
+        }
+      ]
+    }
+  ]
+}

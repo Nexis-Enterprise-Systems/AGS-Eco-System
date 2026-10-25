@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  /* Light is the default. DB branding (System Settings) overrides these
+     inline in light mode only; dark mode uses the fixed AGS dark palette
+     from the website (site.css), so a custom brand colour can never make
+     dark mode unreadable. */
+  :root {
+    color-scheme: light;
+    --color-primary: 27 29 31;
+    --color-secondary: 27 29 31;
+    --color-accent: 110 93 63;
+    --color-surface: 255 255 255;
+    --color-surface-muted: 244 243 240;
+    --color-ink: 27 29 31;
+    --color-ink-muted: 94 98 102;
+    --color-line: 217 215 210;
+    --color-on-primary: 255 255 255;
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --color-primary: 236 235 231;
+    --color-secondary: 236 235 231;
+    --color-accent: 194 174 134;
+    --color-surface: 27 30 33;
+    --color-surface-muted: 19 21 23;
+    --color-ink: 236 235 231;
+    --color-ink-muted: 160 163 166;
+    --color-line: 46 50 54;
+    --color-on-primary: 19 21 23;
+  }
+
+  body {
+    @apply bg-surface-muted text-ink antialiased;
+    font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
+    /* Aligned digits everywhere: prices, totals and dates line up in tables. */
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Working screens use Jost throughout. Cormorant Garamond (font-display)
+     is reserved for the login/sign-up/2FA company name, the sidebar name,
+     and client-facing documents. */
+}
+
+@layer components {
+  .card {
+    @apply rounded-card border border-line bg-surface;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-primary text-on-primary hover:opacity-90;
+  }
+
+  .btn-secondary {
+    @apply btn border border-line bg-surface text-ink hover:bg-surface-muted;
+  }
+
+  .btn-danger {
+    @apply btn bg-red-600 text-white hover:bg-red-700;
+  }
+
+  .input {
+    @apply w-full rounded-sm border border-line bg-surface px-3 py-2 text-sm outline-none ring-brand-primary/30 focus:ring-2;
+  }
+
+  .label {
+    /* Sentence case, no letter-spacing — the uppercase/tracked version
+       read as harsh. Same information, gentler delivery. */
+    @apply mb-1 block text-xs font-medium text-ink-muted;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+}
